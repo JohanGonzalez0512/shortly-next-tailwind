@@ -1,13 +1,13 @@
-import Hero from "./components/Hero";
+import { Hero, Shorten } from "./components";
 
 
 
 export default function Home() {
   return (
     <>
-      <Hero/>
-     
-     
+      <Hero />
+      <Shorten />
+
     </>
   )
 }
