@@ -14,11 +14,9 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
         <link rel="icon" href="/images/favicon-32x32.png" />
         <title>Shortly</title>
       </head>
-      <body>
-        <main className={poppins.className}>
-          <Navbar />
-          {children}
-        </main>
+      <body className={poppins.className}>
+        <Navbar />
+        {children}
       </body>
     </html>
   )

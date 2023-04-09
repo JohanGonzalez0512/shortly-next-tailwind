@@ -1,4 +1,4 @@
-import { Hero, Shorten } from "./components";
+import { Cta, Hero, Shorten, Stats } from "./components";
 
 
 
@@ -7,7 +7,8 @@ export default function Home() {
     <>
       <Hero />
       <Shorten />
-
+      <Stats />
+      <Cta />
     </>
   )
 }
