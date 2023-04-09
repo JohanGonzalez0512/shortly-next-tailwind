@@ -10,7 +10,7 @@ const linksInfo = [
     shortened: "https://rel.ink/mxk0P6",
   },
   {
-    original: "https://www.youtube.com/c/FrontendMentor",
+    original: "https://youtube.com/c/FrontendMentor",
     shortened: "https://rel.ink/7Yl0wB",
   }
 ]
